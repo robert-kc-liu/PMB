@@ -55,14 +55,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Beeper.cs" />
-    <Compile Include="IMonitorStrategy.cs" />
-    <Compile Include="InstantMonitorStrategy.cs" />
-    <Compile Include="MonitorMode.cs" />
+    <Compile Include="MonitorStrategies\IMonitorStrategy.cs" />
+    <Compile Include="MonitorStrategies\InstantMonitorStrategy.cs" />
+    <Compile Include="MonitorStrategies\SustainedMonitorStrategy.cs" />
     <Compile Include="PerformanceMonitor.cs" />
     <Compile Include="PerformanceMonitorBeeper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SustainedMonitorStrategy.cs" />
+    <Compile Include="Settings\MeasureMode.cs" />
+    <Compile Include="Settings\MonitorMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

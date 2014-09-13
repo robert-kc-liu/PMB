@@ -43,3 +43,47 @@ C:\Users\Edge\Documents\Visual Studio 2013\Projects\PerfMonBeep\PerfMonBeep\bin\
 C:\Users\Edge\Documents\Visual Studio 2013\Projects\PerfMonBeep\PerfMonBeep\bin\Debug\Autofac.xml
 C:\Users\Edge\Documents\Visual Studio 2013\Projects\PerfMonBeep\PerfMonBeep\bin\Debug\Autofac.Configuration.dll
 C:\Users\Edge\Documents\Visual Studio 2013\Projects\PerfMonBeep\PerfMonBeep\bin\Debug\Autofac.Configuration.xml
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\PerfMonBeep.exe.config
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\PerfMonBeep.exe
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\PerfMonBeep.pdb
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\Autofac.Configuration.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\Autofac.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\Humanizer.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\Topshelf.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\Autofac.xml
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\Autofac.Configuration.xml
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\Humanizer.pdb
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\Humanizer.xml
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\af\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\ar\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\bg\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\bn-BD\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\cs\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\da\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\de\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\el\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\es\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\fa\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\fi-FI\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\fr\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\fr-BE\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\he\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\hu\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\id\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\ja\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\nb\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\nb-NO\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\nl\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\pl\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\pt-BR\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\ro\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\ru\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\sk\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\sl\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\sr\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\sr-Latn\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\sv\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\tr\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\bin\Debug\vi\Humanizer.resources.dll
+Z:\GitHub\PMB\PerfMonBeep\obj\Debug\PerfMonBeep.exe
+Z:\GitHub\PMB\PerfMonBeep\obj\Debug\PerfMonBeep.pdb

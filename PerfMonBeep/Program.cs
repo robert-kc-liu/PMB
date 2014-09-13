@@ -1,6 +1,5 @@
 ﻿using Autofac;
 using Autofac.Configuration;
-using Autofac.Core;
 using Topshelf;
 
 namespace PerfMonBeep
@@ -13,14 +12,12 @@ namespace PerfMonBeep
             SetupWindowsService();
         }
 
-        private static IContainer Container { get; set; }
+        public static IContainer Container { get; set; }
 
         private static void SetupIoc()
         {
             var builder = new ContainerBuilder();
 
-            //builder.RegisterType<PerformanceMonitor>().AsSelf();
-            //builder.RegisterType<PerformanceMonitorBeeper>().AsSelf();
             builder.RegisterModule(new ConfigurationSettingsReader("autofac"));
 
             Container = builder.Build();

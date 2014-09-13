@@ -1,4 +1,4 @@
-﻿namespace PerfMonBeep
+﻿namespace PerfMonBeep.MonitorStrategies
 {
     interface IMonitorStrategy
     {

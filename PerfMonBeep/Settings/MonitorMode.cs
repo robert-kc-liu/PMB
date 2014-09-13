@@ -1,4 +1,4 @@
-namespace PerfMonBeep
+namespace PerfMonBeep.Settings
 {
     internal enum MonitorMode
     {

@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Timers;
+using Autofac;
 using Humanizer;
+using PerfMonBeep.MonitorStrategies;
+using PerfMonBeep.Settings;
 
 namespace PerfMonBeep
 {
-    /// <summary>
-    /// - Mode = Sustained high CPU (e.g. over 80% for 1 minute) or every 1 second check (instant)
-    /// - Measure = High CPU, Memory or both [Humanize enum]
-    /// </summary>
     class PerformanceMonitorBeeper
     {
         private readonly PerformanceMonitor _pm;
@@ -16,7 +15,7 @@ namespace PerfMonBeep
         private readonly Timer _timer;
         private IMonitorStrategy _monitorStrategy;
 
-        public PerformanceMonitorBeeper(PerformanceMonitor pm, MonitorMode monitorMode, int cpuThreshold, int memoryThreshold)
+        public PerformanceMonitorBeeper(PerformanceMonitor pm, MonitorMode monitorMode, MeasureMode measureMode, int cpuThreshold, int memoryThreshold)
         {
             _pm = pm;
             _cpuThreshold = cpuThreshold;
@@ -25,21 +24,22 @@ namespace PerfMonBeep
             _timer = new Timer(1000) {AutoReset = false};
             _timer.Elapsed += (sender, eventArgs) => OnTimer();
 
-            InitializeMonitorStrategy(monitorMode);
+            InitializeMonitorStrategy(monitorMode, measureMode);
         }
 
-        private void InitializeMonitorStrategy(MonitorMode monitorMode)
+        private void InitializeMonitorStrategy(MonitorMode monitorMode, MeasureMode measureMode)
         {
             if (monitorMode == MonitorMode.Instant)
             {
-                _monitorStrategy = new InstantMonitorStrategy();
+                _monitorStrategy = Program.Container.Resolve<InstantMonitorStrategy>(new TypedParameter(typeof(MeasureMode), measureMode));
             }
             else
             {
-                _monitorStrategy = new SustainedMonitorStrategy();
+                _monitorStrategy = Program.Container.Resolve<SustainedMonitorStrategy>(new TypedParameter(typeof(MeasureMode), measureMode));
             }
 
             Console.WriteLine("Set monitor mode to: {0}", monitorMode.Humanize());
+            Console.WriteLine("Set measure mode to: {0}", measureMode.Humanize());
         }
 
         public void Start()
